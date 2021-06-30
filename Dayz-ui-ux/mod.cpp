@@ -1,9 +1,9 @@
-name = "ModTemplate";
+name = "Dayz-ui-ux";
 picture = "";
 logo = "";
 logoSmall = "";
 logoOver = "";
-tooltip = "ModTemplate";
+tooltip = "Dayz-ui-ux";
 overview = "";
 action = "";
 author = "";

@@ -6,6 +6,10 @@ GameProjectClass {
 			platformHardware PC
 			skeletonDefinitions "DZ/Anims/cfg/skeletons.anim.xml"
 			FileSystem {
+				FileSystemPathClass {
+				Name "Game Root"
+				Directory "P:"
+				}
 
 			}
 			
@@ -24,18 +28,19 @@ GameProjectClass {
 				"gui/imagesets/playstation_buttons.imageset"
 				"gui/imagesets/selection.imageset"
 				"gui/imagesets/console_toolbar.imageset"
-				"DayZEditor/gui/imagesets/dayz_editor_gui.imageset"
+				"DabsFramework/gui/imagesets/prefabs.imageset"
 			}
 			widgetStyles {
 				"gui/looknfeel/dayzwidgets.styles" 
 				"gui/looknfeel/widgets.styles"
+				"DabsFramework/gui/looknfeel/prefabs.imageset"
 			}
 			ScriptModules {
 				ScriptModulePathClass {
 					Name "core"
 					Paths {
 						"scripts/1_Core"
-						"ModTemplate/scripts/1_Core"
+						"Dayz-ui-ux/scripts/1_Core"
 					}
 					EntryPoint ""
 				}
@@ -50,7 +55,7 @@ GameProjectClass {
 					Name "game"
 					Paths {
 						"scripts/3_Game"
-						"ModTemplate/Scripts/3_Game"
+						"Dayz-ui-ux/Scripts/3_Game"
 					}
 					EntryPoint "CreateGame"
 				}
@@ -58,7 +63,7 @@ GameProjectClass {
 					Name "world"
 					Paths {
 						"scripts/4_World"
-						"ModTemplate/scripts/4_World"
+						"Dayz-ui-ux/scripts/4_World"
 					}
 					EntryPoint ""
 				}
@@ -66,7 +71,7 @@ GameProjectClass {
 					Name "mission"
 					Paths {
 						"scripts/5_Mission"
-						"ModTemplate/scripts/5_Mission"
+						"Dayz-ui-ux/scripts/5_Mission"
 					}
 					EntryPoint "CreateMission"
 				}
@@ -76,7 +81,7 @@ GameProjectClass {
 					Paths {
 						"scripts/editor/Workbench"
 						"scripts/editor/plugins"
-						"ModTemplate/scripts/editor/plugins"
+						"Dayz-ui-ux/scripts/editor/plugins"
 					} 
 					EntryPoint ""
 				} 
