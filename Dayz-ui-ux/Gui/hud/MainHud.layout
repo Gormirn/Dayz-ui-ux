@@ -1,0 +1,316 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ {
+  FrameWidgetClass RoundReadoutFrame {
+   ignorepointer 1
+   size 115 115
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    TextWidgetClass RoundReadoutNumber {
+     ignorepointer 1
+     position 0 0
+     size 100 100
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scriptclass "ViewBinding"
+     style Bold
+     text "11"
+     "text halign" center
+     "text valign" center
+     {
+      ScriptParamsClass {
+       Binding_Name "ZombieRound"
+      }
+     }
+    }
+   }
+  }
+  FrameWidgetClass WeaponAmmoReadoutFrame {
+   ignorepointer 1
+   position 0.02 0.02
+   size 200 50
+   halign right_ref
+   valign bottom_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 1
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     position 0 -10
+     size 164 26
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scriptclass "ViewBinding"
+     text "30/240"
+     font "gui/fonts/sdf_MetronLight42"
+     "text halign" center
+     "text valign" center
+     {
+      ScriptParamsClass {
+       Binding_Name "WeaponAmmo"
+      }
+     }
+    }
+    TextWidgetClass TextWidget1 {
+     ignorepointer 1
+     position 0 14
+     size 1 22
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "ViewBinding"
+     text "Weapon Name"
+     font "gui/fonts/sdf_MetronLight42"
+     text_proportion 0.5
+     "size to text h" 0
+     "size to text v" 0
+     "text halign" center
+     "text valign" center
+     {
+      ScriptParamsClass {
+       Binding_Name "WeaponName"
+      }
+     }
+    }
+   }
+  }
+  FrameWidgetClass FrameWidget0 {
+   ignorepointer 1
+   position 0 0.02
+   size 0.25 0.05
+   halign center_ref
+   valign bottom_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   {
+    GridSpacerWidgetClass GridSpacerWidget0 {
+     ignorepointer 1
+     size 1 1
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     Padding 10
+     Margin 5
+     Columns 8
+     Rows 1
+     {
+      ImageWidgetClass ImageWidget0 {
+       ignorepointer 1
+       size 54 54
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      ImageWidgetClass ImageWidget1 {
+       ignorepointer 1
+       size 54 54
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      ImageWidgetClass ImageWidget2 {
+       ignorepointer 1
+       size 54 54
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      ImageWidgetClass ImageWidget3 {
+       ignorepointer 1
+       size 54 54
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      ImageWidgetClass ImageWidget4 {
+       ignorepointer 1
+       size 54 54
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      ImageWidgetClass ImageWidget5 {
+       ignorepointer 1
+       size 54 54
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      ImageWidgetClass ImageWidget6 {
+       ignorepointer 1
+       size 54 54
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      ImageWidgetClass ImageWidget7 {
+       ignorepointer 1
+       size 54 54
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+     }
+    }
+   }
+  }
+  GridSpacerWidgetClass GridSpacerWidget1 {
+   ignorepointer 1
+   color 0.1176 0.1176 0.1176 0.2745
+   position 0.02 0
+   size 0.1 0.1
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   Padding 5
+   Margin 5
+   Columns 1
+   Rows 4
+   {
+    TextWidgetClass TextWidget2 {
+     ignorepointer 1
+     color 0.4706 0.4706 0.902 1
+     position 0 50
+     size 1 0.5
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "ViewBinding"
+     text "1,000,000"
+     font "gui/fonts/sdf_MetronBook24"
+     "size to text h" 0
+     "size to text v" 0
+     "text halign" center
+     "text valign" center
+     {
+      ScriptParamsClass {
+       Binding_Name "ScorePlayerBlue"
+      }
+     }
+    }
+    TextWidgetClass TextWidget3 {
+     ignorepointer 1
+     color 0.902 0.4706 0.4706 1
+     position 0 50
+     size 1 0.5
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "ViewBinding"
+     text "1,000,000"
+     font "gui/fonts/sdf_MetronBook24"
+     "size to text h" 0
+     "size to text v" 0
+     "text halign" center
+     "text valign" center
+     {
+      ScriptParamsClass {
+       Binding_Name "ScorePlayerRed"
+      }
+     }
+    }
+    TextWidgetClass TextWidget4 {
+     ignorepointer 1
+     color 0.4706 0.902 0.4706 1
+     position 0 50
+     size 1 0.5
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "ViewBinding"
+     text "1,000,000"
+     font "gui/fonts/sdf_MetronBook24"
+     "size to text h" 0
+     "size to text v" 0
+     "text halign" center
+     "text valign" center
+     {
+      ScriptParamsClass {
+       Binding_Name "ScorePlayerGreen"
+      }
+     }
+    }
+    TextWidgetClass TextWidget5 {
+     ignorepointer 1
+     color 0.902 0.902 0.4706 1
+     position 0 50
+     size 1 0.5
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "ViewBinding"
+     text "1,000,000"
+     font "gui/fonts/sdf_MetronBook24"
+     "size to text h" 0
+     "size to text v" 0
+     "text halign" center
+     "text valign" center
+     {
+      ScriptParamsClass {
+       Binding_Name "ScorePlayerYellow"
+      }
+     }
+    }
+   }
+  }
+ }
+}

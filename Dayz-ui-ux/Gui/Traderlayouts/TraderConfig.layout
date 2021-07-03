@@ -1,0 +1,31 @@
+PanelWidgetClass rootFrame {
+ color 0.0196 0.0196 0.0196 1
+ size 400 800
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ style rover_sim_colorable
+ {
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   position 0 30
+   size 1 200
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  TextWidgetClass TextWidget0 {
+   ignorepointer 1
+   size 1 30
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Trader Config"
+   "text halign" center
+   "text valign" center
+  }
+ }
+}
